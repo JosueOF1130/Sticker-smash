@@ -8,7 +8,6 @@ type Props = {
 };
 
 export default function EmojiSticker({ imageSize, stickerSource }: Props) {
-    const test: string = "functionality"
 
     const scaleImage = useSharedValue(imageSize);
     const translateX = useSharedValue(0);
